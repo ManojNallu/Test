@@ -1,0 +1,33 @@
+
+
+.container{
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center; 
+    height: 500px;
+   background-color: lavender;
+    font-family: cursive;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    font-family: cursive;
+}
+.tasklist{
+    margin: 0 auto;
+    text-align: center; 
+}
+.alertContainer{
+    width: 20%;
+    padding: -5px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000; 
+    transition: 'transform 300ms';
+    transform: 'translateY(100%)';
+    transform: 'translateY(0)',
+}
+
